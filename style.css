@@ -101,6 +101,7 @@ button {
     width: 50%;
   }
   #txt {
+    align-self: center;
     display: inline-block;
     width: 100%;
   }
