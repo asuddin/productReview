@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap');
+
+body {
+  font-size: 2vw;
+  background-color: hsl(30, 38%, 92%);
+}
+
+#container {
+  aspect-ratio: 900/600;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  border-style: none;
+  border-radius: 10px;
+}
+
+#img1 {
+  width: 100%;
+  border-style: none;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#img2 {
+  width: 0%;
+  border-style: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#txt {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#perfume {
+  letter-spacing: 0.2rem;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 0.7rem;
+  color: grey;
+}
+
+#gabrielle {
+  margin-top: 0;
+  font-family: "Fraunces";
+}
+
+#desc {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 0.7rem;
+  color: grey;
+}
+
+#discount {
+  font-family: "Fraunces";
+  color: hsl(158, 36%, 37%);
+}
+
+#price {
+  font-family: "Montserrat";
+  font-weight: 500;
+  color: grey;
+  padding-left: 5%;
+  text-decoration: line-through;
+  font-size: 0.7rem;
+  vertical-align: middle;
+}
+
+button {
+  border-style: none;
+  border-radius: 10px;
+  background-color: hsl(158, 36%, 37%);
+  width: 100%;
+  margin-bottom: 5%;
+  cursor: pointer;
+}
+
+#cartImg {
+  margin-right: 2%;
+  vertical-align: middle;
+}
+
+#cart {
+  display: inline-block;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 0.7rem;
+  color: white;
+}
+
+@media only screen and (min-width: 375px) {
+  #container {
+    flex-wrap: nowrap;
+  }
+  #img1 {
+    width: 0;
+  }
+  #img2 {
+    width: 50%;
+  }
+  #txt {
+    display: inline-block;
+    width: 100%;
+  }
+}
